@@ -19,7 +19,8 @@ import java.util.EnumSet;
 @Mod(
         modid = ChatMuteMod.MOD_ID,
         name = ChatMuteMod.MOD_NAME,
-        version = ChatMuteMod.VERSION
+        version = ChatMuteMod.VERSION,
+        acceptableRemoteVersions = "*"
 )
 public class ChatMuteMod {
 
